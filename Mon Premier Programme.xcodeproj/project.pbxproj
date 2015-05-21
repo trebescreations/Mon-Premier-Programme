@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		391A2A271AF4AEA9008D5922 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 391A2A261AF4AEA9008D5922 /* main.cpp */; };
 		391A2A291AF4AEA9008D5922 /* Mon_Premier_Programme.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 391A2A281AF4AEA9008D5922 /* Mon_Premier_Programme.1 */; };
+		391A2A351AF4D395008D5922 /* math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 391A2A331AF4D395008D5922 /* math.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		391A2A231AF4AEA9008D5922 /* Mon Premier Programme */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mon Premier Programme"; sourceTree = BUILT_PRODUCTS_DIR; };
 		391A2A261AF4AEA9008D5922 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		391A2A281AF4AEA9008D5922 /* Mon_Premier_Programme.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Mon_Premier_Programme.1; sourceTree = "<group>"; };
+		391A2A331AF4D395008D5922 /* math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = math.cpp; sourceTree = "<group>"; };
+		391A2A341AF4D395008D5922 /* math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +47,7 @@
 		391A2A1A1AF4AEA9008D5922 = {
 			isa = PBXGroup;
 			children = (
-				391A2A251AF4AEA9008D5922 /* Mon Premier Programme */,
+				391A2A321AF4B8E2008D5922 /* New Group */,
 				391A2A241AF4AEA9008D5922 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,8 +65,18 @@
 			children = (
 				391A2A261AF4AEA9008D5922 /* main.cpp */,
 				391A2A281AF4AEA9008D5922 /* Mon_Premier_Programme.1 */,
+				391A2A331AF4D395008D5922 /* math.cpp */,
+				391A2A341AF4D395008D5922 /* math.h */,
 			);
 			path = "Mon Premier Programme";
+			sourceTree = "<group>";
+		};
+		391A2A321AF4B8E2008D5922 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				391A2A251AF4AEA9008D5922 /* Mon Premier Programme */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				391A2A271AF4AEA9008D5922 /* main.cpp in Sources */,
+				391A2A351AF4D395008D5922 /* math.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

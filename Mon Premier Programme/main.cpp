@@ -7,12 +7,45 @@
 //
 
 #include <iostream>
+#include <cmath>
+#include "math.cpp"
 
-int main(int argc, const char * argv[])
+using namespace std;
+
+double afficherDemande(char var)
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    double sortie;
+    cout << "Taper la valeur de " << var << " :";
+    cin >> sortie;
+    return sortie;
+}
+int calcul()
+{
+    double a,b;
+    a= afficherDemande('A');
+    b= afficherDemande('B');
+    double const somme(pow(a,b));
+    cout <<somme;
     return 0;
+}
+int main()
+{
+    int const nombreNotes(5);
+    int notes[nombreNotes];
+    notes[0]=5;
+    notes[1]=5;
+    notes[2]=5;
+    notes[3]=5;
+    notes[4]=5;
+    double moyenne;
+    for(int i(0);i<nombreNotes;++i)
+    {
+        moyenne+=notes[i];
+    }
+    moyenne/=nombreNotes;
+    cout << moyenne;
+    return 0;
+
+    
 }
 
